@@ -81,6 +81,7 @@ const DatePicker = () => {
 
     setRecurrenceDates(dates);
   };
+  console.log("test")
   const isRecurringDate = (date) => {
     const dateString = date.toDateString();
     const result = recurrenceDates.some(
